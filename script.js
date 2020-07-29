@@ -74,6 +74,8 @@ document.getElementById("submit").addEventListener("click",function () {
         setCode("");
         document.getElementById("success").style.display = "block";
         document.getElementById("tryLeft").style.display = "none";
+        document.getElementById("failed").style.display = "none";
+
 
     }else {
 
